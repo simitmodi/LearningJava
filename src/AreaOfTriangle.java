@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class areaOfTriangle {
+public class AreaOfTriangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter size of Base of a triangle: ");

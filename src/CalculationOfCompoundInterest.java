@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class calculationOfCompoundInterest {
+public class CalculationOfCompoundInterest {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the principle amount: ");

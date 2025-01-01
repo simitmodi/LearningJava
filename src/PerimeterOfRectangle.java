@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class perimeterOfRectangle {
+public class PerimeterOfRectangle {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter length of first side: ");

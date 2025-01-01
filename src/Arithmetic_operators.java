@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class arithmetic_operators {
+public class Arithmetic_operators {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter first number: ");

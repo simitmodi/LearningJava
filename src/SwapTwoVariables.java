@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class swap_two_variables {
+public class SwapTwoVariables {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter your name: ");

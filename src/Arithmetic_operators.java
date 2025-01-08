@@ -16,5 +16,7 @@ public class Arithmetic_operators {
         System.out.println("Multiplication: " + c);
         c=a/b;
         System.out.println("Division: " +c);
+        c = a%b;
+        System.out.println("Modulus: "+c);
     }
 }

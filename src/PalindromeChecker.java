@@ -6,20 +6,21 @@ public class PalindromeChecker {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter the number for which you want to check: ");
         int num = input.nextInt();
-        int answer = reverser(num);
-        if (num==answer) {
+        boolean isPalindrome = reverser(num);
+        if (isPalindrome) {
             System.out.println("Entered number is Palindrome number");
         } else {
             System.out.println("Entered number is not palindrome number");
         }
     }
-    public static int reverser(int num){
+    public static boolean reverser(int num){
         int j=0;
+        int numCopy = num;
         while (num>0){
             int i = num%10;
             j=j*10+i;
             num/=10;
         }
-        return j;
+        return numCopy == j;
     }
 }

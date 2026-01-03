@@ -12,7 +12,7 @@ public class FindMinAndMaxNoInAnArray {
         int i = 0;
         while (i < arr.length) {
             if(arr[i] > num) {
-                num = arr[i];
+                num = i;
                 i++;
             } else if (arr[i] < num) {
                 i++;
